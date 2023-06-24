@@ -1,0 +1,8 @@
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+#define TAPPING_TOGGLE 2
+
+#ifdef RGB_MATRIX_ENABLE
+    #ifdef RGB_MATRIX_DEFAULT_MODE
+        #undef RGB_MATRIX_DEFAULT_MODE
+    #endif
+#endif
